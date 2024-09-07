@@ -76,7 +76,7 @@ img {
 }
 
 .project img{
-    max-width: 50%;
+    max-width: 10%;
     height: auto;
     border-radius: 8px;
     display: block;
