@@ -1,0 +1,1 @@
+intializing folder for images
