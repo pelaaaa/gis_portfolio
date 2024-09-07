@@ -54,6 +54,13 @@ h2 {
     margin-bottom: 1rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +73,14 @@ h2 {
     padding: 1rem;
     border-radius: 8px;
     max-width: 300px;
+}
+
+.project img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
