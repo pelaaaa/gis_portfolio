@@ -81,3 +81,37 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+.map-explanation {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.map-container, .map-description {
+    flex: 1;
+    min-width: 300px; 
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.map-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.map-description h3 {
+    margin-bottom: 1rem;
+}
